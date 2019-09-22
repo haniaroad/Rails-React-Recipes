@@ -25,6 +25,6 @@
   "scripts": {
     "build": "yarn install && yarn build",
     "deploy": "cp -a client/build/. public/",
-    "postinstall": "yarn build && yarn deploy'"
+    "postinstall": "yarn build && yarn deploy"
   }
 }
