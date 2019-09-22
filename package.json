@@ -23,8 +23,8 @@
   "author": "Derien <haniaroadlifestyle@gmail.com\ngit config --list\ngit config --list\ngit config --global user.name = Derien\ngit config --global user.email = haniaroadlifestyle@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "yarn install && yarn build && cd ..",
+    "build": "yarn install && yarn build",
     "deploy": "cp -a client/build/. public/",
-    "postinstall": "yarn build && yarn deploy && echo 'Client built!'"
+    "postinstall": "yarn build && yarn deploy'"
   }
 }
