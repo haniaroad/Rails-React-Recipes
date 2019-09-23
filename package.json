@@ -34,8 +34,8 @@
   "author": "Derien <haniaroadlifestyle@gmail.com\ngit config --list\ngit config --list\ngit config --global user.name = Derien\ngit config --global user.email = haniaroadlifestyle@gmail.com>",
   "license": "MIT",
   "engines": {
-    "node": "10.15.3",
-    "yarn": "1.15.2"
+    "node": "12.7.0",
+    "yarn": "1.17.3"
   }
 
 }
