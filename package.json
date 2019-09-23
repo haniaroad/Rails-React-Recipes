@@ -20,9 +20,11 @@
   },
 
   "scripts": {
-    "build": "yarn install && yarn build",
+    "start": "react-scripts start",
+    "eject": "react-scripts eject",
+    "build": "yarn install && yarn build && cd ..",
     "deploy": "cp -a client/build/. public/",
-    "postinstall": "yarn build && yarn deploy"
+    "postinstall": "yarn build && yarn deploy && echo 'Client built!'"
   },
 
   "version": "1.0.0",
